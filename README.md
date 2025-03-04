@@ -5,6 +5,9 @@ Step-by-step guide to configuring a Windows Domain Controller and Print Server.
 Step 2: Test Printer Functionality
 Try printing from a client PC.
 If it fails, check Print Spooler Service (services.msc).
+
+
+
 Step 3: Verify DNS and Login Issues
 Ensure client DNS is set to 172.20.75.3.
 Restart Netlogon and DNS services:
